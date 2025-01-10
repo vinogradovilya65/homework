@@ -7,4 +7,4 @@ if __name__ == "__main__":
     c = None
 
     # Do not change the line below
-    assert c == a + b
+    assert c == 15

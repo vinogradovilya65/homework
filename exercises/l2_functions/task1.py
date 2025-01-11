@@ -2,7 +2,7 @@ Number = int | float | complex
 
 
 # Write the body of the function to make the script
-# to work without errors
+# work without errors
 def sqr(n: Number) -> Number:
     pass
 

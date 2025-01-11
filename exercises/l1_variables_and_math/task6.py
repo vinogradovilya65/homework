@@ -3,7 +3,7 @@ if __name__ == "__main__":
     a, b, c = 2, 3, 4
 
     # Compose a value for variable d using variables a, b, c
-    # to make the script to work without errors
+    # to make the script work without errors
     d = None
 
     # Do not change the line below

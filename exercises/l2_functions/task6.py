@@ -1,5 +1,5 @@
 
-# Modify this function to make the script to work without errors.
+# Modify this function to make the script work without errors.
 def multiply(a: int, b: int) -> int:
     return a * b
 

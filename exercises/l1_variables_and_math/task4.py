@@ -3,7 +3,7 @@ if __name__ == "__main__":
     a = b = c = d = None
 
     # Assign the values of correct types to variables a, b, c, d 
-    # to make the script to work without errors
+    # to make the script work without errors
 
     # Do not change the lines below
     assert isinstance(a, int)

@@ -1,7 +1,7 @@
 from typing import Iterable
 
 
-# Finish the function to make the script to work without errors.
+# Finish the function to make the script work without errors.
 #
 # NOTE:
 # Iterable is any object that can be converted into an iterator.

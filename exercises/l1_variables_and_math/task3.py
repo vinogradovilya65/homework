@@ -2,7 +2,7 @@ if __name__ == "__main__":
     # Do not change the line below
     a, b = input("Enter a: "), input("Enter b: ")
 
-    # Modify variables a and b to make the script to work without errors
+    # Modify variables a and b to make the script work without errors
 
     # Do not change the line below
     assert a * b

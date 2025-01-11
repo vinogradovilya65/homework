@@ -3,7 +3,7 @@ if __name__ == "__main__":
     a = 3.23
     b = 3.72
 
-    # Modify variables a, b to make the script to work without errors
+    # Modify variables a, b to make the script work without errors
 
     # Do not change the line below
     assert a == b

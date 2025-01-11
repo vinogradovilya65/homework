@@ -4,7 +4,7 @@ if __name__ == "__main__":
     b = "is"
     my = "my"
 
-    # Modify variables `name` and `msg` to make this script to work without errors
+    # Modify variables `name` and `msg` to make this script work without errors
     # Use variables a, b, my to build a value for variable msg
     name, msg = None, None
 

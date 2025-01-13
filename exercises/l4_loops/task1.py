@@ -1,6 +1,5 @@
-
 # Write the function body to make the script work without errors.
-# 
+#
 # HINT:
 # Use while loop to count sum from 0 to n (included)
 def sum_to(n: int) -> int:

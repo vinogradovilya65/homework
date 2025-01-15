@@ -41,7 +41,7 @@ if __name__ == "__main__":
     b = i > 4 or i != 2
     b = not (i > 4)
 
-    # Thuthy and Falsey
+    # Thuthy and Falsy
     # 1. Expression is True or False
     # 2. <expression> is not None
     # 3. if simple type: <expression> != 0

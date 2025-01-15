@@ -12,8 +12,8 @@ def contains(l: list[Any], val: Any) -> bool:
 if __name__ == "__main__":
     l = [3, 6, 1, 2]
 
-    assert contains(l, 1) == True
-    assert contains(l, -1) == False
-    assert contains(l, 2) == True
-    assert contains(l, "c") == False
-    assert contains(["a", "c", "c"], "c") == True
+    assert contains(l, 1) is True
+    assert contains(l, -1) is False
+    assert contains(l, 2) is True
+    assert contains(l, "c") is False
+    assert contains(["a", "c", "c"], "c") is True

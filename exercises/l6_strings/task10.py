@@ -3,8 +3,7 @@
 # equals the last character of the string `s`;
 # return False otherwise
 def same_chars(s: str) -> bool:
-    pass
-
+    return s[0] == s[-1]  # Сравниваем первый и последний символы строки
 
 # Do not change the below's code
 if __name__ == "__main__":

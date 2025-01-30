@@ -1,8 +1,5 @@
-# Write a function that removes any whitespaces
-# from string `s`
 def clean(s: str) -> str:
-    pass
-
+    return ''.join(s.split())
 
 # Do not change the below's code
 if __name__ == "__main__":

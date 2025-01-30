@@ -1,9 +1,5 @@
-# Write the body of the function to make the script
-# work without errors.
-#
-# HINT: Use `set`
 def unique(l: list[int]) -> list[int]:
-    pass
+    return sorted(list(set(l)))
 
 
 if __name__ == "__main__":

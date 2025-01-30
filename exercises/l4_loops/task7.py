@@ -1,7 +1,11 @@
-# Use `while` loop to calculate the number
-# of digits in a number `n`
 def count_digits(n: int) -> int:
-    pass
+    count = 0  # Инициализируем счётчик
+    if n == 0:  # Если число равно 0, сразу возвращаем 1
+        return 1
+    while n > 0:  # Пока число не станет 0
+        n = n // 10  # Убираем последнюю цифру числа
+        count += 1  # Увеличиваем счётчик
+    return count  # Возвращаем количество цифр
 
 
 # Do not change the below's code

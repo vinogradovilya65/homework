@@ -1,19 +1,15 @@
-# Use a solution from the previous task and
-# modify the function `take`.
-#
-# Now, it accepts additional `last` parameter. If it's
-# False, the function works as in task2. If it's True
-# the function should take `max(len(s), take)` characters
-# from end of the string.
-#
-# For example,
-# take("abcd", 2, True) -> "cd"
 def take(s: str, n: int, last: bool = False) -> str:
+    # If n is less than or equal to 0, return an empty string
     if n <= 0:
         return ""
-    if last:
-        return s[-min(len(s), n):]  # Возвращаем последние min(len(s), n) символов
-    return s[:min(len(s), n)]  # Возвращаем первые min(len(s), n) символов
+    
+    # If last is False, return the first n characters
+    if not last:
+        return s[:n]
+    
+    # If last is True, return the last n characters
+    return s[-n:]
+
 
 # Do not change the below's code
 if __name__ == "__main__":

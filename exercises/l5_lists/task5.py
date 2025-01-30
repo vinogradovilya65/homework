@@ -1,7 +1,7 @@
 # Write the body of the function that returns
 # a list which contains integers in a range [1; n]
 def fill(n: int) -> list[int]:
-    pass
+    return list(range(1, n + 1))  # Создаем список от 1 до n
 
 
 # Do not change the below's code

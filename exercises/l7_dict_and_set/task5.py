@@ -1,8 +1,5 @@
-# Write a body of the function to make it
-# return a min value of dictionary `d`
 def min_value(d: dict[str, int]) -> int:
-    pass
-
+    return min(d.values())  # Return the minimum value from the dictionary
 
 # Do not change the below's code
 if __name__ == "__main__":

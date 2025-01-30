@@ -1,11 +1,10 @@
-
 # Declare a function named `join`
 # that accepts two strings as parameters
 # and returns their concatenation separated
 # by whitespace ' '.
-#
-# For example, call of `join("a", "b")` should return "a b"
 
+def join(s1: str, s2: str) -> str:
+    return s1 + " " + s2  # Конкатенируем строки с пробелом между ними
 
 # Do not change the below's code
 if __name__ == "__main__":

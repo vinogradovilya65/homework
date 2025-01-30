@@ -1,12 +1,10 @@
 from typing import Any
 
-
 # Write a function that combines two lists.
 # NOTE: function must create a new list.
 # Do not modify lists passed as arguments
 def combine(l1: list[Any], l2: list[Any]) -> list[Any]:
-    pass
-
+    return l1 + l2  # Объединяем два списка с помощью оператора +
 
 # Do not change the below's code
 if __name__ == "__main__":

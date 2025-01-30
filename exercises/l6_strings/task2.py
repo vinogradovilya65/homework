@@ -2,12 +2,10 @@
 # which contains `max(len(s), n)` first characters.
 #
 # If n <= 0, return an empty string.
-#
-# For example,
-# take("abcd", 3) -> "abc"
 def take(s: str, n: int) -> str:
-    pass
-
+    if n <= 0:
+        return ""
+    return s[:min(len(s), n)]  # Возвращаем первые min(len(s), n) символов
 
 # Do not change the below's code
 if __name__ == "__main__":

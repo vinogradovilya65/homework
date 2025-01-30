@@ -1,13 +1,16 @@
-# Write two functions that calculate the factorial of `n`
-#
-# - `factorial_while` must use while loop;
-# - `factorial_for` must use for loop.
 def factorial_while(n: int) -> int:
-    pass
+    result = 1
+    while n > 1:  # Цикл будет выполняться, пока n больше 1
+        result *= n  # Умножаем результат на n
+        n -= 1  # Уменьшаем n на 1
+    return result  # Возвращаем итоговый результат
 
 
 def factorial_for(n: int) -> int:
-    pass
+    result = 1
+    for i in range(1, n + 1):  # Перебираем числа от 1 до n (включительно)
+        result *= i  # Умножаем результат на текущее число
+    return result  # Возвращаем итоговый результат
 
 
 # Do not change the below's code

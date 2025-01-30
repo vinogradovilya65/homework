@@ -1,11 +1,9 @@
 # Do not change the line below
 Number = int | float
 
-
 # Write the function body to make the script work without errors
 def is_positive(n: Number) -> bool:
-    pass
-
+    return n >= 0  # Возвращаем True, если число больше или равно нулю
 
 # Do not change the below's code
 if __name__ == "__main__":

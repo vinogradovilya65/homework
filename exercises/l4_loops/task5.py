@@ -1,9 +1,8 @@
-# Use `for` loop to check if character `c` is present in
-# string `s`.
-#
-# Return `True` is character is present. Return `False` otherwise
 def has_char(s: str, c: str) -> bool:
-    pass
+    for char in s:  # Проходим по всем символам строки
+        if char == c:  # Если нашли символ, возвращаем True
+            return True
+    return False  # Если цикл завершился и не нашли символ, возвращаем False
 
 
 # Do not change the below's code

@@ -1,7 +1,6 @@
 # Do not remove this import
 from enum import Enum
 
-
 # Do not change this class
 class Keyword(Enum):
     IF = "if"
@@ -10,12 +9,18 @@ class Keyword(Enum):
     CLASS = "Class"
     IDENTIFIER = None
 
-
 # Finish the function body to make the script work without errors
 def word2token(word: str) -> Keyword:
     if word == "if":
         return Keyword.IF
-
+    elif word == "while":
+        return Keyword.WHILE
+    elif word == "for":
+        return Keyword.FOR
+    elif word == "class":
+        return Keyword.CLASS
+    else:
+        return Keyword.IDENTIFIER
 
 # Do not change the below's code
 if __name__ == "__main__":

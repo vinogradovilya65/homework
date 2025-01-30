@@ -1,12 +1,6 @@
-from typing import Any
-
-
-# Write a function that joins all elements
-# from list `l` with a separator `, `.
-# It is guaranteed that all elements from list `l`
-# can be converted to string
 def proxy_join(l: list[Any]) -> str:
-    pass
+    # Convert all elements to strings and join them with ", "
+    return ", ".join(map(str, l))
 
 
 # Do not change the below's code

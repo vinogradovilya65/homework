@@ -9,8 +9,11 @@
 # For example,
 # take("abcd", 2, True) -> "cd"
 def take(s: str, n: int, last: bool = False) -> str:
-    pass
-
+    if n <= 0:
+        return ""
+    if last:
+        return s[-min(len(s), n):]  # Возвращаем последние min(len(s), n) символов
+    return s[:min(len(s), n)]  # Возвращаем первые min(len(s), n) символов
 
 # Do not change the below's code
 if __name__ == "__main__":

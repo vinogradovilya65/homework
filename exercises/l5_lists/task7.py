@@ -1,5 +1,5 @@
 def proxy_pop(l: list[int]) -> int:
-    pass
+    return l.pop()  # pop удаляет и возвращает последний элемент списка
 
 
 # Do not change the below's code

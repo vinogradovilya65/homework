@@ -1,6 +1,6 @@
 # Write the body of the function to make the script work without errors
 def is_vowel(c: str) -> bool:
-    pass
+    return c.lower() in "aeiou"  # Проверяем, является ли символ гласной
 
 if __name__ == "__main__":
     # Do not change the below asserts

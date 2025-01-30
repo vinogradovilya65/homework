@@ -1,12 +1,5 @@
-from typing import Any
-
-
-# Write a body of the function that returns
-# True is `key` exists in dictionary `d`
-# and False otherwise
 def exists(d: dict[Any, Any], key: Any) -> bool:
-    pass
-
+    return key in d  # Return True if the key exists in the dictionary, otherwise False
 
 # Do not change the below's code
 if __name__ == "__main__":

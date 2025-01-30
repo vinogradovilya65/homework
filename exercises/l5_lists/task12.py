@@ -1,6 +1,5 @@
 from typing import Any
 
-
 # Write a function that extends list `l1` with elements
 # from list `l2`.
 #
@@ -13,8 +12,7 @@ from typing import Any
 # l1: [1, 2, 3, 4]
 # l2: [3, 4]
 def proxy_extend(l1: list[Any], l2: list[Any]):
-    pass
-
+    l1.extend(l2)  # Добавляем элементы из l2 в l1
 
 # Do not change the below's code
 if __name__ == "__main__":
@@ -22,3 +20,4 @@ if __name__ == "__main__":
     proxy_extend(l1, l2)
     assert l1 == [1, 2, 3, 4, 5, 6]
     assert l2 == [4, 5, 6]
+

@@ -1,18 +1,24 @@
-# Write a function that returns `max(len(s), n)`
-# characters from the middle of the string.
-#
-# For example,
-# 1. middle("abddcvbn", 4) -> "ddcv"
-# 2. middle("abddcvbn", 3) -> "ddc"
-#
-# NOTE: use // division to define slice start index
-def middle(s: str, n: int) -> str:
-    pass
+def take(s: str, n: int, last: bool = False) -> str:
+    # If n is less than or equal to 0, return an empty string
+    if n <= 0:
+        return ""
+    
+    # If last is False, return the first n characters
+    if not last:
+        return s[:n]
+    
+    # If last is True, return the last n characters
+    return s[-n:]
 
 
 # Do not change the below's code
 if __name__ == "__main__":
-    assert middle("abddcvbn", 4) == "ddcv"
-    assert middle("abddcvbn", 3) == "ddc"
-    assert middle("dcd", 5) == "dcd"
-    assert middle("", 10) == ""
+    assert take("abcde", 2) == "ab"
+    assert take("bbhj", 3) == "bbh"
+    assert take("bjk", 0) == ""
+    assert take("bjk", -1) == ""
+
+    assert take("abcd", 2, True) == "cd"
+    assert take("agfd", 4, True) == "agfd"
+    assert take("df", 10, True) == "df"
+    assert take("fff", -1, True) == ""

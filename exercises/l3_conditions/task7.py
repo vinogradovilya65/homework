@@ -1,7 +1,15 @@
 # Write the body of the function to make the script work without errors
 def grade(score: int) -> str:
-    pass
-
+    if score >= 90:
+        return "A"
+    elif score >= 80:
+        return "B"
+    elif score >= 70:
+        return "C"
+    elif score >= 60:
+        return "D"
+    else:
+        return "F"  # Для всех баллов ниже 60 возвращаем "F"
 
 if __name__ == "__main__":
     # Do not change the below asserts

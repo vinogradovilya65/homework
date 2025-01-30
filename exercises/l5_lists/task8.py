@@ -1,11 +1,10 @@
 from typing import Any
 
-
 # Write the function that checks whether the element `val`
 # is present in the list `l`.
 # Return `True` if present and `False` otherwise
 def contains(l: list[Any], val: Any) -> bool:
-    pass
+    return val in l  # Возвращаем результат проверки наличия элемента в списке
 
 
 # Do not change the below's code
